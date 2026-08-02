@@ -1,0 +1,134 @@
+.contaners{
+	height: auto;
+width:auto;
+border: 2px solid red;
+row-gap: 5%;
+background: whitesmoke;
+}
+	
+
+
+
+
+.top{
+border: 2px solid whitesmoke;
+
+    height: 120px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+
+    
+}
+.flipkartlogo img {
+	height: 80px;
+	width: 120px;
+}
+.search{
+	height: 100px;
+	width: 280px;
+	
+
+	
+
+}
+.searchbar{
+	margin-top: 30px;
+	width: 250px;
+	height: 50px;
+	outline: none;
+}
+.button{
+	height: 25px;
+	width: 70px
+	
+
+}
+
+.login{
+	height: 100px;
+	width: 250px;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+.loginbutton{ 
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+}
+
+.allcategories{
+
+    
+   
+      display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    justify-items: center;
+    align-items: center;
+
+    background-color:white;
+    padding: 10px;
+    margin-top: 30px;
+
+
+}
+.banner img{
+	width:100%;
+	height: 200px;
+	margin-top: 30px;
+}
+.offer{
+	display: grid;
+	grid-template-columns: repeat(3,2fr);
+	column-gap: 25px;
+	
+}
+.offer img{
+	width: 400px;
+	height: 200px;
+	margin-top: 25px;
+	
+	
+}
+.deals{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	justify-items: center;
+	align-items: center;
+	margin-top: 30px;
+	
+	
+}
+.deals p{
+	text-align: center;
+}
+.deals img{
+	height: 225px;
+	width: 200px;
+	margin-top:25px;
+}
+.heading{
+	grid-column: 1/span 6;
+}
+.bottom{
+	background-color: black;
+	margin-top: 30px;
+}
+.link{
+	color: aqua;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	text-align: center;
+}
